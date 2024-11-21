@@ -1,6 +1,7 @@
 import type { PropsWithChildren } from "react";
 import { FaGithub, FaGlobe, FaLinkedin } from "react-icons/fa";
-import { Header } from "./header";
+import { Header } from "./Header";
+
 
 export function Layout({ children }: PropsWithChildren) {
   return (
